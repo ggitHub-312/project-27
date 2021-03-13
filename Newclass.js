@@ -22,7 +22,7 @@ class Newclass{
 
         push()
 
-        line(Bob.x,p1.y,p2.x+this.dx,p2.y + this.dy)
+        line(p1.x,p1.y,p2.x+this.dx,p2.y + this.dy)
         pop()
 
        
