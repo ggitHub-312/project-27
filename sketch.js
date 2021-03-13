@@ -68,4 +68,15 @@ function draw() {
 }
 
 
+if (keyCode===UP_ARROW){
+Body.applyForce(bob1.body,bob1.body.position, {x:-150 , y: -150} )
+
+}
+
+
+if (keyCode ===DOWN_ARROW){
+	Body.applyForce(bob5.body,bob5.body.position, {x:150 , y: -150} )
+}
+
+
 
