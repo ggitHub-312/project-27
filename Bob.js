@@ -1,3 +1,4 @@
+
 class Bob{
     constructor(x,y,r){
         var options={
@@ -20,7 +21,7 @@ display()
     translate(paperpos.x,paperpos.y);
     rectMode(CENTER)
     strokeWeight(3);
-    fill(255)
+    fill("orange")
      ellipse(0,0,this.r,this.r);
      pop()
    
